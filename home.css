@@ -1,0 +1,55 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: # white;
+    font-size: 20px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 30px;    
+}
+    
+/*colocar secciones a un costado (home - catalogo - contacto)*/
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0%;
+}
+
+/*separar secciones una al lado de otra (home - catalogo - contacto)*/
+nav li{
+    color: #efb810;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 0 40px 0 15px;
+}
+
+.primerCatalogo {
+    
+}
+
+.primerCatalogo ul {
+    text-align: center;
+    display:inline-flex;
+    padding: 10% 5% 10% 5%;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background: url(banner\ 3.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #efb810;
+    font-size: 13px;
+    margin: 20px;
+}
